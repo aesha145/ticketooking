@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+.header {
+    background: #2f5d3f;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: lightgreen;
+    padding: 60px;
+    text-align: center;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: green;
+    color: white;
+}
+
+.orange {
+    background: orange;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 20px;
+}
+
+/* ANIMALS */
+.center {
+    text-align: center;
+}
+
+.animals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+/* TICKETS */
+.tickets {
+    text-align: center;
+    padding: 20px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+.contact input, textarea {
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: #2f5d3f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
